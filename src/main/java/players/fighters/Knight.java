@@ -16,7 +16,9 @@ public class Knight extends Fighter {
     }
 
     public void fight(Player player){
-
+        int playerHP = player.getCurrentHP();
+        int newplayerHP = playerHP - this.weapons.get(weaponEquipped).getDamage();
+        player.setCurrentHP(newplayerHP);
     }
 
 }

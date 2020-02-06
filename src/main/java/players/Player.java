@@ -18,5 +18,35 @@ public abstract class Player {
         this.gold = gold;
     }
 
+    public int getMaxHp() {
+        return maxHp;
+    }
 
+    public int getCurrentHP() {
+        return currentHP;
+    }
+
+    public ArrayList<Weapon> getWeapons() {
+        return weapons;
+    }
+
+    public int getGold() {
+        return gold;
+    }
+
+    public void setMaxHp(int maxHp) {
+        this.maxHp = maxHp;
+    }
+
+    public void setCurrentHP(int currentHP) {
+        this.currentHP = currentHP;
+    }
+
+    public void setWeapons(ArrayList<Weapon> weapons) {
+        this.weapons = weapons;
+    }
+
+    public void setGold(int gold) {
+        this.gold = gold;
+    }
 }

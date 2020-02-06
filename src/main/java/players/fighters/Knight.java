@@ -1,14 +1,14 @@
 package players.fighters;
 
-import players.Player;
-import weapons.Weapon;
+        import players.Player;
+        import weapons.Weapon;
 
-import java.util.ArrayList;
+        import java.util.ArrayList;
 
 public class Knight extends Fighter {
 
     public Knight(int maxHp, int currentHP, int gold) {
-       super(maxHp,currentHP,gold);
+        super(maxHp,currentHP,gold);
     }
 
     public void changeWeapon(int weaponWanted){

@@ -3,19 +3,13 @@ package weapons;
 public abstract class Weapon {
 
     private String name;
-    private int damage;
 
-    public Weapon(String name, int damage) {
+    public Weapon(String name) {
         this.name = name;
-        this.damage = damage;
     }
 
     public String getName() {
         return this.name;
-    }
-
-    public int getDamage() {
-        return this.damage;
     }
 
 }

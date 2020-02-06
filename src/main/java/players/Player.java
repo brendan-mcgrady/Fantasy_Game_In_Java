@@ -13,9 +13,9 @@ public abstract class Player {
     protected ArrayList<Magic> magicWeapons;
     private int gold;
 
-    public Player(int maxHp, int currentHP, int gold) {
+    public Player(int maxHp, int gold) {
         this.maxHp = maxHp;
-        this.currentHP = currentHP;
+        this.currentHP = this.maxHp;
         this.meleeWeapons = new ArrayList<Melee>();
         this.magicWeapons = new ArrayList<Magic>();
         this.gold = gold;

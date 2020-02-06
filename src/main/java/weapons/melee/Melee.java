@@ -1,17 +1,23 @@
 package weapons.melee;
 
-import weapons.Weapon;
+public abstract class Melee {
 
-public abstract class Melee extends Weapon {
-
+    private int damage;
     private int strengthReq;
+    private String name;
 
     public Melee(String name, int damage, int strengthReq) {
-        super(name, damage);
+        this.name = name;
+        this.damage = damage;
         this.strengthReq = strengthReq;
+    }
+
+    public int getDamage() {
+        return this.damage;
     }
 
     public int getStrengthReq() {
         return this.strengthReq;
     }
+
 }

@@ -1,9 +1,6 @@
 package players.fighters;
 
 import players.Player;
-import weapons.Weapon;
-
-import java.util.ArrayList;
 
 public abstract class Fighter extends Player implements IAttack {
 
@@ -19,7 +16,9 @@ public abstract class Fighter extends Player implements IAttack {
         this.weaponEquipped = weaponWanted;
     }
 
+    public void fight(){
 
+    }
 
 
 

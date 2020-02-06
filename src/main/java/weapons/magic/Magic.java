@@ -1,19 +1,17 @@
 package weapons.magic;
 
-import weapons.Weapon;
-
-public abstract class Magic extends Weapon {
+public abstract class Magic {
 
     private double damageBuff;
+    private String name;
 
-    public Magic(String name, int damage, double damageBuff) {
-        super(name, damage);
+    public Magic(String name, double damageBuff) {
+        this.name = name;
         this.damageBuff = damageBuff;
     }
 
     public double getDamageBuff() {
         return this.damageBuff;
     }
-
 
 }

@@ -1,7 +1,6 @@
 package players.fighters;
 
 import players.Player;
-import weapons.Weapon;
 
 public interface IAttack {
 
